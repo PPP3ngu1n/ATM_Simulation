@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class Main {
-    static File file = new File("/Users/owen/Library/CloudStorage/OneDrive-UWEBristol/Personal Projects/ATM_Simulations/src/Accounts.txt");
+    static File file = new File("Accounts.txt");
 
     // Make the Account accessible and stay logged in
     static class Account {
@@ -20,7 +20,7 @@ public class Main {
 
     static void updateAccountInFile(Account updatedAccount) {
         try {
-            File tempFile = new File("/Users/owen/Library/CloudStorage/OneDrive-UWEBristol/Personal Projects/ATM_Simulations/src/temp.txt");
+            File tempFile = new File("temp.txt");
             BufferedReader reader = new BufferedReader(new FileReader(file));
             BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
 
