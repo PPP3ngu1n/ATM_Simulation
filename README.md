@@ -25,7 +25,6 @@ Do you have an Account?
 Yes/No or Exit to quit
 > No
 
-``
 Please Enter in a Username:
 > alice
 Please Enter in a Password:
@@ -37,7 +36,6 @@ Your account has been added
 2. Deposit Money
 3. Withdraw Money
 4. Exit
-``
 
 ## IMPORTANT NOTES:
 - Passwords are stored in PLAIN TEXT, this is for the simulation ONLY
